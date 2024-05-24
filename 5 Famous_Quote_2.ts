@@ -1,0 +1,5 @@
+import { toASCII } from "punycode";
+
+let famous_person :string = 'Albert Einstein';
+let message :string = '"A person who never mode a mistake never tried anything new."';
+console.log(`${famous_person} once said, ${message}`);
